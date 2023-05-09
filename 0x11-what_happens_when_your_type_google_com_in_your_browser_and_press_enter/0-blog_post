@@ -1,0 +1,5 @@
+When you type "google.com" in your web browser, your computer sends a request to the internet asking for the Google website. The request is sent to a Domain Name System (DNS) server, which translates the domain name "google.com" into an IP address that your computer can use to connect to Google's servers.
+
+Your computer then establishes a connection with Google's servers, which send back the HTML code for the Google homepage. Your web browser receives this code and uses it to display the Google homepage on your screen.
+
+The homepage may also include other resources such as images, JavaScript files, and style sheets, which your browser will download and display as well. Once the webpage has fully loaded, you can interact with it by typing in search queries or clicking on links to other pages.
