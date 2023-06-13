@@ -1,5 +1,6 @@
-# Create a manifest that fixes file name typo
-exec { 'fix_typo':
-  command => 'mv /var/www/html/wp-includes/class-wp-locale.php /var/www/html/wp-includes/class-wp-locale.phpp',
-  path    => '/bin/'
+# Puppet manifest to fix a bug in wp-setings.php
+
+exec { 'fix the php extension issue':
+  command => 'sed -i s/phpp/php/g /var/www/html/wp-settings.php',
+  path    => '/usr/local/bin/:/bin/'
 }
